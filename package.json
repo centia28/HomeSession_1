@@ -1,0 +1,22 @@
+{
+  "name": "Home session 1",
+  "version": "1.0.0",
+  "description": "BootCamp day 1",
+  "main": "app/library.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/centia28/HomeSession_1.git"
+  },
+  "author": "Philip Newman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/centia28/HomeSession_1/issues"
+  },
+  "homepage": "https://github.com/centia28/HomeSession_1#readme"
+}
