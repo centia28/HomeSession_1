@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test_datatypes": "mocha tests/dataTypes.js"
+    "test_datatypes": "mocha tests/dataTypes.js",
+    "test_primes": "mocha tests/getPrimes.js",
+    "test_class": "mocha tests/AnimalClass.js"
   },
   "repository": {
     "type": "git",

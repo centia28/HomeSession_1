@@ -7,38 +7,34 @@
 
 function dataTypes(arg){
 	switch (typeof(arg)){
-		case "string":
-			return arg.length;
-			break;
-		case "undefined":
-			return "no value";
-			break;
+    	case "string":
+    		return arg.length;
+    	case "undefined":
+      		return "no value";
 		case "boolean":
 			return arg;
-			break;
 		case "number":
 			if (arg == 100){
-				return 'equal to 100';
-			} else if (arg < 100){
-				return 'less than 100';
-			} else {
-				return "more than 100";
-			}
+		    	return 'equal to 100';
+		  	} else if (arg < 100){
+		    	return 'less than 100';
+		  	} else {
+		    	return "more than 100";
+		  	}
 			break;
 		case "object":
-        	if (arg == undefined){
-           		return "no value";
-            } else if (arg.length < 3){
-				return 'undefined';
-			} else {
-				return arg[2];
+			if (arg == undefined){
+		    	return "no value";
+		  	} else if (arg.length < 3){
+		    	return 'undefined';
+		  	} else {
+		    	return arg[2];
 			}
 			break;
 		case "function":
-			return arg(true);
-			break;
+		  	return arg(true);
 		default:
-        	return "no value";
+		return "no value";
 	}
 }
 module.exports = dataTypes;
