@@ -1,13 +1,13 @@
 {
-  "name": "Home session 1",
+  "name": "HomeSession_1",
   "version": "1.0.0",
   "description": "BootCamp day 1",
-  "main": "app/library.js",
+  "main": "app/dataTypes.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "",
+    "test_datatypes": "mocha tests/dataTypes.js"
   },
   "repository": {
     "type": "git",
