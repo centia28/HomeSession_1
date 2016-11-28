@@ -1,0 +1,24 @@
+{
+  "name": "HomeSession_1",
+  "version": "1.0.0",
+  "description": "BootCamp day 1",
+  "main": "app/dataTypes.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test_datatypes": "mocha tests/dataTypes.js",
+    "test_primes": "mocha tests/getPrimes.js",
+    "test_class": "mocha tests/AnimalClass.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/centia28/HomeSession_1.git"
+  },
+  "author": "Philip Newman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/centia28/HomeSession_1/issues"
+  },
+  "homepage": "https://github.com/centia28/HomeSession_1#readme"
+}
