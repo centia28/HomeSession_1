@@ -41,3 +41,5 @@ Dog.prototype.constructor = Animal;
 Dog.prototype.sayHello = function(){
 	return (this.voice + "! I'm " + this.name + ". I'm a " + this.color +" dog and " + this.agedOf(age)) ;
 };
+
+module.exports = Animal;

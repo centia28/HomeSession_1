@@ -4,7 +4,6 @@
 
 var chai = require('chai');
 var expect = chai.expect;
-var assert = chai.assert;
 
 // testing function getPrimes
 var getPrimes = require('../app/getPrimes.js');

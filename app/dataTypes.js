@@ -37,3 +37,4 @@ function dataTypes(arg){
 		return "no value";
 	}
 }
+module.exports = dataTypes;

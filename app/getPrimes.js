@@ -30,3 +30,4 @@ function getPrimes(n) {
         return isPrime(n);
     }
 }
+module.exports = getPrimes;
