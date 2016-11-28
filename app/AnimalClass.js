@@ -9,7 +9,7 @@ var Animal = function (name,age,color) {
 };
 
 Animal.prototype.sayHello = function() {
-	return ("Hello, i'm " + this.name + ". I'm a " + this.color +" undefined animal and " + this.agedOf(age)) ;
+	return ("Hello, i'm " + this.name + ". I'm a " + this.color +" undefined animal and " + this.agedOf()) ;
 };
 
 Animal.prototype.agedOf = function() {
@@ -22,11 +22,11 @@ function Cat (name,age,color){
 
 	//Initialize our Cat-specific properties
 	this.voice = "Miaw";
-};
+}
 Cat.prototype = Object.create(Animal.prototype);
 Cat.prototype.constructor = Animal;
 Cat.prototype.sayHello = function(){
-	return (this.voice + "! I'm " + this.name + ". I'm a " + this.color +" cat and " + this.agedOf(age)) ;
+	return (this.voice + "! I'm " + this.name + ". I'm a " + this.color +" cat and " + this.agedOf()) ;
 };
 
 //inheritance : Dog is an Animal
@@ -35,11 +35,11 @@ function Dog (name,age,color){
 
 	//Initialize our Cat-specific properties
 	this.voice = "Woof-Woof";
-};
+}
 Dog.prototype = Object.create(Animal.prototype);
 Dog.prototype.constructor = Animal;
 Dog.prototype.sayHello = function(){
-	return (this.voice + "! I'm " + this.name + ". I'm a " + this.color +" dog and " + this.agedOf(age)) ;
+	return (this.voice + "! I'm " + this.name + ". I'm a " + this.color +" dog and " + this.agedOf()) ;
 };
 
 module.exports = Animal;
